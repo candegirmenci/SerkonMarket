@@ -82,7 +82,7 @@ namespace market
 
         public DataTable GetCategories()
         {
-            string query = "SELECT [Category Name] FROM Category";
+            string query = "SELECT ID, [Category Name] FROM Category";
 
             try
             {
